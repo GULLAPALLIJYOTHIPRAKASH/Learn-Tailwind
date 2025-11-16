@@ -1,6 +1,7 @@
 import "./App.css";
 import Color from "./Colors/Color";
 import Container_Spacing from "./Container Spacing/Container-Spacing";
+import Sizing from "./Sizing/Sizing";
 import Typography from "./Typography/Typography";
 
 function App(){
@@ -11,7 +12,10 @@ function App(){
 
   {/* <Container_Spacing/> */}
 
-  <Typography/>
+  {/* <Typography/> */}
+
+
+  <Sizing/>
 
 
   </>)

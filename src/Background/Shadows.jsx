@@ -23,7 +23,7 @@ function Shadows(){
     <h1 className=" text-2xl text-white text-shadow-teal-300  text-shadow-sm   "> box shadow sm </h1> <br />
     <h1 className=" text-2xl text-white text-shadow-teal-300  text-shadow-md   "> box shadow md </h1> <br />
     <h1 className=" text-2xl text-white text-shadow-red-300  text-shadow-lg   "> box shadow lg </h1> <br />
-    <div className="text-2xl bg-white text-shadow-teal-300  text-shadow-lg/30 p-[10px]"> box shadow lg  with opacity</div> 
+    <div className="text-2xl bg-white text-shadow-teal-300  text-shadow-lg/30 p-[10px]"> box shadow lg  with opacity.</div> 
 
     </>)
 }

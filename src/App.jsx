@@ -1,5 +1,6 @@
 import "./App.css";
 import Background from "./Background/Background";
+import Border from "./Border/Border";
 import Color from "./Colors/Color";
 import Container_Spacing from "./Container Spacing/Container-Spacing";
 import Display from "./Display/Display";
@@ -26,7 +27,9 @@ function App(){
 
   {/* <Display/> */}
 
-  <Background/>
+  {/* <Background/> */}
+
+  <Border/>
 
 
   </>)

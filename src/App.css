@@ -6,4 +6,25 @@
 
   --color-mycolor: #faa307;
 
+  --animate-mymove: move 1s ease-in-out infinite ;
+
+
+  @keyframes move {
+
+    to{
+
+      transform: translateX(200px);
+      opacity: 100%;
+
+      
+    }
+
+    from{
+
+      transform: translateX(0px);
+      opacity: 0;
+    }
+    
+  }
+
 }

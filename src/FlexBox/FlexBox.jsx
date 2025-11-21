@@ -5,7 +5,6 @@ function FlexBox(){
     <h1 className="text-blue-400 font-medium text-4xl">1.FlexBox Tailwind</h1>
 
     {/* flex */}
-
     <div className="m-5 border-2 ">
 
     
@@ -231,7 +230,47 @@ function FlexBox(){
     </div>
 
     
+    {/* flex shinks , grow  */}
+    <div className="border-2 m-5">
 
+        <h1 className="text-2xl font-extrabold">flex-shink & flex-grow</h1>
+        <ul className="flex ">
+            <li className="w-[300px] m-4 p-5 bg-red-400">normal</li>
+            <li className="w-[200px] m-4 p-5 bg-red-400 flex-initial">intiail size & shink and  not grow</li>
+            <li className="w-[350px] m-4 p-5 bg-red-400">normal</li>
+        </ul>
+
+        <br />
+
+          <ul className="flex ">
+            <li className="w-[300px] m-4 p-5 bg-green-400">normal</li>
+            <li className="w-[200px] m-4 p-5 bg-green-400 flex-auto"> shink and grow</li>
+            <li className="w-[350px] m-4 p-5 bg-green-400">normal</li>
+        </ul>
+
+        <br />
+
+          <ul className="flex ">
+            <li className="w-[300px] m-4 p-5 bg-blue-400">normal</li>
+            <li className="w-[200px] m-4 p-5 bg-blue-400 flex-none">intiail size no shink & grow</li>
+            <li className="w-[350px] m-4 p-5 bg-blue-400">normal</li>
+        </ul>
+    </div>
+
+
+    {/* flex-order */}
+
+    <div className="border-3 m-5">
+
+        <h1 className="font-medium text-xl">flex-order</h1>
+        <ul className="flex">
+            <li className="bg-teal-200 p-5 m-2 order-3"> order : 01</li>
+            <li className="bg-teal-200 p-5 m-2 order-4"> order : 02</li>
+            <li className="bg-teal-200 p-5 m-2 order-2"> order : 03</li>
+            <li className="bg-teal-200 p-5 m-2 order-1"> order : 04</li>
+            <li className="bg-teal-200 p-5 m-2 order-5"> order : 05</li>
+        </ul>
+    </div>
 
     </>)
 }

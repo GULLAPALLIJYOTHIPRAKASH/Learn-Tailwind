@@ -8,8 +8,10 @@ import Container_Spacing from "./Container Spacing/Container-Spacing";
 import Display from "./Display/Display";
 import FlexBox from "./FlexBox/FlexBox";
 import Grid from "./Grid/Grid";
+import Aspect from "./Other/Aspect";
 import Position from "./Position/Position";
 import Sizing from "./Sizing/Sizing";
+import Transform from "./Transform/Transform";
 import Transition from "./Transition/Transition";
 import Typography from "./Typography/Typography";
 
@@ -46,7 +48,11 @@ function App(){
   {/* <Transition/> */}
 
 
-  <Animation/>
+  {/* <Animation/> */}
+
+  {/* <Transform/> */}
+
+  <Aspect/>
 
 
 

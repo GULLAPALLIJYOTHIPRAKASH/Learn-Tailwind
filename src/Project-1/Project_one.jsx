@@ -67,13 +67,13 @@ function Project_one(){
                     <button className="border-1 p-[10px]  border-[#AF7452] text-[#AF7452] focus:outline-none ">Shop Now</button>
                 </div>
                  <div className="card border-1 border-[#AF7452]/30    p-[10px_25px] ">
-                    <h1 className="text-lg font-medium mb-[15px]">Buy Now, Pay Later</h1>
-                    <p className="font-light mb-[15px] w-[250px]">0% interest financing available pay after 30 days.</p>
+                    <h1 className="text-lg font-medium mb-[15px]">Cashback Reward</h1>
+                    <p className="font-light mb-[15px] w-[250px]">Collect & Redeem on every order that you purchased.</p>
                     <button className="border-1 p-[10px]  border-[#AF7452] text-[#AF7452] focus:outline-none ">Shop Now</button>
                 </div>
                  <div className="card border-1 border-[#AF7452]/30    p-[10px_25px]  ">
-                    <h1 className="text-lg font-medium mb-[15px]">Buy Now, Pay Later</h1>
-                    <p className="font-light mb-[15px] w-[250px]">0% interest financing available pay after 30 days.</p>
+                    <h1 className="text-lg font-medium mb-[15px]">Secure Payment</h1>
+                    <p className="font-light mb-[15px] w-[250px]">Gurantee 100 secure payment online on our website.</p>
                     <button className="border-1 p-[10px]  border-[#AF7452] text-[#AF7452] focus:outline-none ">Shop Now</button>
                 </div>
             </section>

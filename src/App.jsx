@@ -10,6 +10,7 @@ import FlexBox from "./FlexBox/FlexBox";
 import Grid from "./Grid/Grid";
 import Aspect from "./Other/Aspect";
 import Position from "./Position/Position";
+import Project_one from "./Project-1/Project_one";
 import Sizing from "./Sizing/Sizing";
 import Transform from "./Transform/Transform";
 import Transition from "./Transition/Transition";
@@ -52,9 +53,9 @@ function App(){
 
   {/* <Transform/> */}
 
-  <Aspect/>
+  {/* <Aspect/> */}
 
-
+  <Project_one/>
 
   </>)
 }

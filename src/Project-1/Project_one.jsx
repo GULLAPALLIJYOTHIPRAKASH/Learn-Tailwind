@@ -10,9 +10,9 @@ function Project_one(){
 
     return(<>
     <div className="one-container w-[100%] min-h-screen bg-[#FBF7EE] font-sans">
-        <div className="one-center">
+        <div className="one-center ">
             {/* navbar start */}
-            <nav className="nav-container flex justify-around ">
+            <nav className="nav-container flex justify-around   ">
                 <div className="logo-section mt-5">
                     <h1 className="text-xl font-medium tracking-[2px]">MyFashion</h1>
                 </div>
@@ -60,24 +60,30 @@ function Project_one(){
             {/* section end */}
 
             {/* card section start */}
-            <section className="mt-[50px] w-[100%   ] flex flex-row gap-[25px] justify-center flex-wrap flex-auto">
+            <section className="mt-[50px] w-[100%] flex flex-row gap-[25px] justify-center flex-wrap flex-auto">
                 <div className="card border-1 border-[#AF7452]/30    p-[10px_25px] rounded-md ">
                     <h1 className="text-lg font-medium mb-[15px]">Buy Now, Pay Later</h1>
                     <p className="font-light mb-[15px] w-[250px]">0% interest financing available pay after 30 days.</p>
                     <button className="border-1 p-[10px]  border-[#AF7452] text-[#AF7452] focus:outline-none ">Shop Now</button>
                 </div>
-                 <div className="card border-1 border-[#AF7452]/30    p-[10px_25px] ">
+                 <div className="card border-1 border-[#AF7452]/30    p-[10px_25px] rounded-md ">
                     <h1 className="text-lg font-medium mb-[15px]">Cashback Reward</h1>
                     <p className="font-light mb-[15px] w-[250px]">Collect & Redeem on every order that you purchased.</p>
                     <button className="border-1 p-[10px]  border-[#AF7452] text-[#AF7452] focus:outline-none ">Shop Now</button>
                 </div>
-                 <div className="card border-1 border-[#AF7452]/30    p-[10px_25px]  ">
+                 <div className="card border-1 border-[#AF7452]/30    p-[10px_25px] rounded-md ">
                     <h1 className="text-lg font-medium mb-[15px]">Secure Payment</h1>
                     <p className="font-light mb-[15px] w-[250px]">Gurantee 100 secure payment online on our website.</p>
                     <button className="border-1 p-[10px]  border-[#AF7452] text-[#AF7452] focus:outline-none ">Shop Now</button>
                 </div>
             </section>
             {/* card section end */}
+
+            {/* footer start */}
+            <div className="footer mt-[30px] border-t-1 border-[#AF7452]  p-5">
+                <p className="justify-self-center">Follow me @ <a href="https://www.linkedin.com/in/gullapalli-jyothiprakash/" target="_blank">Gullapallijyothiprakash</a> || Made with ❤️</p>
+            </div>
+            {/* footer end */}
         </div>
     </div>
     </>)

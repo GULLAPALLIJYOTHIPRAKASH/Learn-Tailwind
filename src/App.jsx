@@ -11,6 +11,7 @@ import Grid from "./Grid/Grid";
 import Aspect from "./Other/Aspect";
 import Position from "./Position/Position";
 import Project_one from "./Project-1/Project_one";
+import Project_two from "./Project-2/Project_two";
 import Sizing from "./Sizing/Sizing";
 import Transform from "./Transform/Transform";
 import Transition from "./Transition/Transition";
@@ -55,7 +56,9 @@ function App(){
 
   {/* <Aspect/> */}
 
-  <Project_one/>
+  {/* <Project_one/> */}
+
+  <Project_two/>
 
   </>)
 }

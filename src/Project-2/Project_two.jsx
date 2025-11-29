@@ -6,7 +6,6 @@ import card_3 from "./assets/card-3.jpg";
 import card_4 from "./assets/card-4.jpg";
 import card_5 from "./assets/card-5.jpg";
 import card_6 from "./assets/card-6.jpg";
-import { useState } from "react";
 function Project_two(){
 
 

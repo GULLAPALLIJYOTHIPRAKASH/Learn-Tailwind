@@ -206,30 +206,30 @@ function Project_two(){
                     <div className="child">
                         <h1 className="text-white text-xl mb-[5px]">Site Menu</h1>
                         <ul>
-                                <li class="text-white">About Us</li>
-                                <li class="text-white">Photography</li>
-                                <li class="text-white">Lens Database</li>
-                                <li class="text-white">Lens Index</li>
+                                <li className="text-white">Home</li>
+                                <li className="text-white">Skills</li>
+                                <li className="text-white">Services</li>
+                                <li className="text-white">Work</li>
                         </ul>
                     </div>
 
                     <div className="child">
-                        <h1 className="text-white text-xl mb-[5px]">REVIEWS</h1>
+                        <h1 className="text-white text-xl mb-[5px]">Services</h1>
                         <ul>
-                                <li class="text-white">Reviews Archive</li>
-                                <li class="text-white">Camera Reviews</li>
-                                <li class="text-white">Lens Reviews</li>
-                                <li class="text-white">Other Gear Reviews</li>
+                                <li className="text-white">Web Design</li>
+                                <li className="text-white">SEO & Snn</li>
+                                <li className="text-white">Analytics</li>
+                                <li className="text-white">Web Mantainces</li>
                         </ul>
                     </div>
 
                     <div className="child">
                         <h1 className="text-white text-xl mb-[5px]">More</h1>
                         <ul>
-                                <li class="text-white">Contact Us</li>
-                                <li class="text-white">Subscribe</li>
-                                <li class="text-white">Workshops</li>
-                                <li class="text-white">Support Us</li>
+                                <li className="text-white">Contact Us</li>
+                                <li className="text-white">Subscribe</li>
+                                <li className="text-white">Workshops</li>
+                                <li className="text-white">Support Us</li>
                         </ul>
                     </div>
                 </div>

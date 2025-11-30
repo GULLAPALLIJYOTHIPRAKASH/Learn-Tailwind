@@ -12,6 +12,7 @@ import Aspect from "./Other/Aspect";
 import Position from "./Position/Position";
 import Project_one from "./Project-1/Project_one";
 import Project_two from "./Project-2/Project_two";
+import Project_three from "./Project-3/Project_three";
 import Sizing from "./Sizing/Sizing";
 import Transform from "./Transform/Transform";
 import Transition from "./Transition/Transition";
@@ -58,7 +59,9 @@ function App(){
 
   {/* <Project_one/> */}
 
-  <Project_two/>
+  {/* <Project_two/> */}
+
+  <Project_three/>
 
   </>)
 }

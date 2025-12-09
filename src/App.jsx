@@ -10,6 +10,7 @@ import FlexBox from "./FlexBox/FlexBox";
 import Grid from "./Grid/Grid";
 import Aspect from "./Other/Aspect";
 import Position from "./Position/Position";
+import E_com from "./Projects/e-commerce-website-ui-design/E-com";
 import Project_one from "./Projects/Project-1/Project_one";
 import Project_two from "./Projects/Project-2/Project_two";
 import Project_three from "./Projects/Project-3/Project_three";
@@ -64,7 +65,9 @@ function App(){
 
   {/* <Project_three/> */}
 
-  <UserCard/>
+  {/* <UserCard/> */}
+
+  <E_com/>
 
   </>)
 }

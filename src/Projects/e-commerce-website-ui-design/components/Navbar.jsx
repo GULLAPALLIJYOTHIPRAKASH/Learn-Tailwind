@@ -12,9 +12,11 @@ return(<>
 {/* Navbar start */}
 <nav className="nav-container  bg-white border-b-1 border-gray-100 relative">
         <div className="nav-center max-w-[1550px] mx-auto p-[20px] flex justify-between items-center ">
+            {/* logo */}
             <div className="logo md:order-1">
                 <a href="#" className="font-['Pacifico'] text-[#4f46e5] font-medium text-2xl outline-0">logo</a>
             </div>
+            {/* nav icons lists */}
             <div className="sub-nav md:order-3">
                 <ul className="nav-main-icons relative flex justify-between space-x-[45px]">
                 <li  ><a href="#" onClick={() => setIconsShow((prev) => prev == "search-icon" ? null : "search-icon")}><i className="fa-solid fa-magnifying-glass text-[#374151]  text-lg "></i></a>
@@ -98,6 +100,8 @@ return(<>
                 </ul>
             </div>
 
+
+            {/* navbar links main on larger screen */}
              <ul className={`nav-main-links  hidden   md:w-[100%] md:bg-white  md:flex md:justify-center md:space-x-9 md:items-center order-2`}>
 
                     <li className=""><a href="#" className="text-lg font-medium text-gray-900 transition-all linear duration-200 hover:text-[#4f46e5] outline-0  ">Home</a></li>
@@ -113,7 +117,8 @@ return(<>
             
         </div>
 
-         <ul className={`nav-main-links ${icons_show == "hamburger-icon" ? 'block' :  'hidden'}  space-y-[10px]  w-[100%] absolute   -bottom-[260px] z-10 bg-white px-[20px] py-[10px]`}>
+            {/* mobile navbar on Hamburger */}
+         <ul className={`nav-main-links ${icons_show == "hamburger-icon" ? 'block' :  'hidden'} md:hidden  space-y-[10px]  w-[100%] absolute   -bottom-[260px] z-10 bg-white px-[20px] py-[10px]`}>
 
                     <li className="py-2"><a href="#" className="text-base font-medium text-gray-900  ">Home</a></li>
                     <li className="py-2"><a href="#" className="text-base font-medium text-gray-900  ">Shop</a></li>

@@ -6,6 +6,7 @@ import footwear from "../assets/footwear.jpg"
 function ShopCategory(){
 
     return(<>
+    
      {/* Shop By Category  */}
     <section className="category-container bg-gray-50 py-16">
         <div className="category-center max-w-[1550px] mx-auto px-[20px]  mx-auto">

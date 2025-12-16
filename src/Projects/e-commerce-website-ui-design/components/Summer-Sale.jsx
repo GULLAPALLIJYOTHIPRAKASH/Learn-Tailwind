@@ -3,6 +3,7 @@ import summer_sale_bg from "../assets/summer-sale-bg.jpg"
 function Summer_sale(){
 
     return(<>
+    
      {/* Summer Sale section */}
         <div className="summer-sale-container bg-[#111827]">
             <div className="summer-sale-center max-w-[1550px]  mx-auto py-16 px-[20px]  md:flex md:justify-center md:items-center">

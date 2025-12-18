@@ -6,8 +6,8 @@ import ShopCategory from "./components/ShopCategory";
 import Summer_sale from "./components/Summer-Sale";
 import Testmonial from "./components/Testmonial";
 
+import Social_Media from "./components/social-media";
 
- 
 function E_com(){
 
 
@@ -19,8 +19,7 @@ function E_com(){
     <Summer_sale/>
     <New_Arrivals/>
     <Testmonial/>
-
-   
+    <Social_Media/>
 
     </>)
 }

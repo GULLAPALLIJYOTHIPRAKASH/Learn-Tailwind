@@ -9,7 +9,7 @@ function Footer(){
             <section className="md:grid md:grid-cols-2">
                   <div className="one-section">
 
-                <h1 className="font-['Pacifico'] text-[#4f46e5] font-medium text-2xl mb-6">logo</h1>
+                <h1 className="font-['Pacifico'] text-[#4f46e5] font-medium text-2xl mb-6">Shop.inc</h1>
                 <p className="text-base text-gray-600 mb-6 md:w-[340px]">
               We offer premium quality clothing and accessories for men and
               women. Our mission is to provide sustainable fashion that lasts.

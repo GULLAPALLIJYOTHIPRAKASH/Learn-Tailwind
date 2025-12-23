@@ -14,7 +14,7 @@ return(<>
         <div className="nav-center max-w-[1550px] mx-auto p-[20px] flex justify-between items-center ">
             {/* logo */}
             <div className="logo md:order-1">
-                <a href="#" className="font-['Pacifico'] text-[#4f46e5] font-medium text-2xl outline-0">logo</a>
+                <a href="#" className="font-['Pacifico'] text-[#4f46e5] font-medium text-2xl outline-0">Shop.inc</a>
             </div>
             {/* nav icons lists */}
             <div className="sub-nav md:order-3">

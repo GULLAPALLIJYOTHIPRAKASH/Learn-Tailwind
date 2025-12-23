@@ -47,6 +47,7 @@ The **src/** directory contains topic-wise folders, each with live examples and 
 | 🚀 Project-2 | Second project |
 | 🚀 Project-3 | Third project |
 | 🚀 UserCard| User Profile Card Design |
+| 🚀 Shop.inc| E-com Modern UI Design |
 
 
 ---

@@ -9,11 +9,11 @@ function ShopCategory(){
     
      {/* Shop By Category  */}
     <section className="category-container bg-gray-50 py-16">
-        <div className="category-center max-w-[1550px] mx-auto px-[20px]  mx-auto">
+        <div className="category-center max-w-[1550px] mx-auto px-[20px]">
             <div className="heading">
                 <h3 className="text-3xl font-bold text-center mb-15">Shop by Category</h3>
             </div>
-            <section className="all-collections grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-6 mx-auto">
+            <section className="all-collections grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] gap-6 justify-center mx-auto">
 
                 {/* women collection */}
                 <article className="collection group cursor-pointer  ">

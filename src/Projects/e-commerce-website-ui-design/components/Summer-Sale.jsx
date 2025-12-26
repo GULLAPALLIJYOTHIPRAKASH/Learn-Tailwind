@@ -5,27 +5,27 @@ function Summer_sale(){
     return(<>
     
      {/* Summer Sale section */}
-        <div className="summer-sale-container bg-[#111827]">
+        <div className="summer-sale-container bg-[#111827] w-full">
             <div className="summer-sale-center max-w-[1550px]  mx-auto py-16 px-[20px]  md:flex md:justify-center md:items-center">
                 <div className="sub-section md:w-1/2 ">
                     <h2 className="text-white  text-3xl font-bold md:text-4xl mb-4">Summer Sale</h2>
                     <p className="text-gray-300 text-[20px] font-normal mb-6">Up to 50% off on selected items. Limited time offer.</p>
                    
                    {/* counter */}
-                    <div className="countdown text-white flex gap-5  mb-8">
-                        <div className="bg-white/10 p-4 rounded-lg">
+                    <div className="countdown text-white flex gap-3 md:gap-5  mb-8">
+                        <div className="bg-white/10 p-3 md:p-4 rounded-lg">
                             <h1 className="text-3xl font-bold ">00</h1>
                             <h3 className="text-gray-300 font-normal">Days</h3>
                         </div>
-                        <div className="bg-white/10 p-4 rounded-lg">
+                        <div className="bg-white/10 p-3 md:p-4 rounded-lg">
                             <h1 className="text-3xl font-bold ">12</h1>
                             <h3 className="text-gray-300 font-normal">Hours</h3>
                         </div>
-                         <div className="bg-white/10 p-4 rounded-lg">
+                         <div className="bg-white/10 p-3 md:p-4 rounded-lg">
                             <h1 className="text-3xl font-bold ">45</h1>
                             <h3 className="text-gray-300 font-normal">Minutes</h3>
                         </div>
-                         <div className="bg-white/10 p-4 rounded-lg">
+                         <div className="bg-white/10 p-3 md:p-4 rounded-lg">
                             <h1 className="text-3xl font-bold ">30</h1>
                             <h3 className="text-gray-300 font-normal">Seconds</h3>
                         </div>

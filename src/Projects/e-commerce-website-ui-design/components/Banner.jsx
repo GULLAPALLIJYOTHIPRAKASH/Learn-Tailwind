@@ -13,9 +13,9 @@ function Banner(){
                     </div>
                     <p className="text-gray-700 text-xl  text-justify font-normal mb-8 md:w-[560px]">Discover our latest arrivals designed for comfort and style. Premium quality that lasts.</p>
     
-                    <div>
-                        <span className="text-lg font-medium text-white mr-8 transition-all linear duration-300 cursor-pointer hover:text-[#4f46e5] md:text-xl ">Shop Now</span>
-                        <button className="bg-white py-3 px-5 font-medium  text-gray-800 transition-all linear duration-300 cursor-pointer hover:opacity-80 ">Explore Collection</button>
+                    <div className="w-full">
+                        <span className="text-lg font-medium py-3 px-5  text-white mr-6 transition-all linear duration-300 cursor-pointer bg-[#4f46e5]  hover:opacity-80  rounded-lg ">Shop Now</span>
+                        <button className="bg-white py-3 px-5 font-medium  text-gray-800 rounded-lg transition-all linear duration-300  cursor-pointer hover:opacity-80 ">Explore Collection</button>
     
                     </div>
                 </div>

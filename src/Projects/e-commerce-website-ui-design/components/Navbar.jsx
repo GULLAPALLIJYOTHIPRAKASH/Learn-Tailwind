@@ -18,23 +18,27 @@ return(<>
             </div>
             {/* nav icons lists */}
             <div className="sub-nav md:order-3">
-                <ul className="nav-main-icons relative flex justify-between space-x-[45px]">
+                <ul className="nav-main-icons  flex justify-between space-x-[45px]">
                 <li  ><a href="#" onClick={() => setIconsShow((prev) => prev == "search-icon" ? null : "search-icon")}><i className="fa-solid fa-magnifying-glass text-[#374151]  text-lg "></i></a>
-                <div className={`search ${icons_show =="search-icon" ? 'block' : 'hidden' }  absolute right-[100px] -bottom-[85px] p-[10px] bg-white rounded-[10px] shadow-xs  shadow-black/30 transition-all linear duration-300`}>
+                <div className={`search ${icons_show =="search-icon" ? 'block' : 'hidden' }  absolute right-[70px] md:right-[100px] -bottom-[60px] p-[10px] bg-white rounded-[10px] shadow-xs  shadow-black/30 transition-all linear duration-300`}>
                     <input type="text" placeholder="Search Products..." className=" border-1 border-gray-700 py-[5px] px-[10px] rounded-[10px] focus:outline-1 focus:outline-offset-1  focus:outline-[#4f46e5]" />
                 </div>
                 </li>
                 <li ><a href="#" onClick={() => setIconsShow( (prev) => prev == "profile-icon" ? null : "profile-icon")}><i className="fa-solid fa-user  text-[#374151] text-lg "></i></a>
-                <div className={`profile ${icons_show == "profile-icon" ? 'block' : 'hidden'} w-[200px] absolute right-[100px] -bottom-[175px] bg-white  shadow-sm rounded-[10px] transition-all linear duration-300`}>
+                <div className={`profile ${icons_show == "profile-icon" ? 'block' : 'hidden'} w-[200px] absolute right-[100px] -bottom-[150px] bg-white  shadow-sm rounded-[10px] transition-all linear duration-300`}>
                     <p className=" text-sm font-normal text-gray-700 hover:bg-gray-300/20 p-2 hover:cursor-pointer">Sign In</p>
                     <p className=" text-sm font-normal text-gray-700 hover:bg-gray-300/20 p-2 hover:cursor-pointer">Register</p>
                     <p className=" text-sm font-normal text-gray-700 hover:bg-gray-300/20 p-2 hover:cursor-pointer">My Account</p>
                     <p className=" text-sm font-normal text-gray-700 hover:bg-gray-300/20 p-2 hover:cursor-pointer">Orders</p>
                 </div>
                 </li>
-                <li className="relative"><a href="#" onClick={() => setIconsShow( (prev) => prev == "cart-icon" ? null : "cart-icon")}><i className="fa-solid fa-bag-shopping text-[#374151]  text-lg"></i></a>
+                <li className="">
+                    <div className="relative">
+                    <a href="#" onClick={() => setIconsShow( (prev) => prev == "cart-icon" ? null : "cart-icon")}><i className="fa-solid fa-bag-shopping text-[#374151]  text-lg"></i></a>
                     <div className="bg-[#4f46e5] text-white font-medium text-sm size-[20px]  rounded-full text-center absolute -top-[15px] -right-[15px]">3</div>
-                    <div className={`cart-section ${icons_show == "cart-icon"  ? 'block' : 'hidden'} w-[300px] absolute -left-[300px] -bottom-[420px] bg-white rounded-[10px] shadow-sm p-3 transition-all linear duration-300 `}>
+
+                    </div>
+                    <div className={`cart-section ${icons_show == "cart-icon"  ? 'block' : 'hidden'} w-[300px] absolute right-[10px] -bottom-[400px] bg-white rounded-[10px] shadow-sm p-3 transition-all linear duration-300 `}>
                         <h3 className=" text-[15px] font-medium text-black">Your Cart (3)</h3>
                         <div className="cart-items space-y-[10px] py-5 border-b-[0.5px] border-gray-600/20">
                             {/* item start */}

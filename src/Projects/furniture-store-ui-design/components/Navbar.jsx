@@ -11,14 +11,14 @@ function Navbar(){
     <nav className="Navbar-container relative" >
         <div className="navbar-center max-w-[1550px] mx-auto p-[20px] flex justify-between items-center">
             <div className="logo-section order-1">
-                <h1 className="text-xl font-bold font-[Poppins]"><span className="text-yellow-500 text-3xl">F</span>URNIX.</h1>
+                <h1 className="text-xl font-bold font-[Poppins]"><span className="text-[#ffaf4d] text-3xl">F</span>URNIX.</h1>
             </div>
             <div className="navbar-links-main order-3">
                 <ul className="navbar-links flex justify-between space-x-[20px]">
                     <li><a href="#" className="outline-none" onClick={() => setshowHover((prev) => prev != "search-icon" ? "search-icon" : null )}><i className="text-lg text-black cursor-pointer  hover:opacity-70   fa-solid fa-magnifying-glass"></i></a></li>
                     <li><a href="#" className="outline-none" onClick={() => setshowHover((prev) => prev != "profile-icon" ? "profile-icon" : null )}><i className="text-lg text-black cursor-pointer  hover:opacity-70   fa-solid fa-user"></i></a></li>
                     <li><a href="#" className="outline-none relative"><i className="text-lg text-black cursor-default fa-solid fa-bag-shopping"></i>
-                    <span className="cart-count cursor-default absolute top-[-18px] left-[10px]  w-[20px] h-[20px]  text-sm font-normal bg-yellow-500 text-white  rounded-full shadow-md shadow-white text-center">3</span>
+                    <span className="cart-count cursor-default absolute top-[-18px] left-[10px]  w-[20px] h-[20px]  text-sm font-normal bg-[#ffaf4d] text-white  rounded-full shadow-md shadow-white text-center">3</span>
                     </a></li>
                     <li className="md:hidden" ><a href="#" className="outline-none" onClick={() => setshowHover((prev) => prev != "hambuger-icon" ? "hambuger-icon" : null )}><i className="text-lg text-black cursor-pointer  hover:opacity-70   fa-solid fa-bars"></i></a></li>
                 </ul>
@@ -37,19 +37,19 @@ function Navbar(){
             {/* Mobile Sidebar */}
             <div className={`mobile-sidebar ${showHover == "hambuger-icon" ? "block" : "hidden"} md:hidden w-[100%] border-b-1 border-gray-300   absolute left-0 bottom-[-160px] bg-white p-4  transition-all duration-300 linear z-10`}>
                 <ul className="mobile-sidebar-links ">
-                    <li className="text-base font-[Poppins] text-yellow-500 font-medium tracking-1 mb-2"><a href="#">Home</a></li>
-                    <li className="text-base font-[Poppins] text-yellow-500 font-medium tracking-1 mb-2"><a href="#">Shop</a></li>
-                    <li className="text-base font-[Poppins] text-yellow-500 font-medium tracking-1 mb-2"><a href="#">Offers</a></li>
-                    <li className="text-base font-[Poppins] text-yellow-500 font-medium tracking-1 mb-2"><a href="#">About</a></li>
+                    <li className="text-base font-[Poppins] text-[#ffaf4d] font-medium tracking-1 mb-2"><a href="#">Home</a></li>
+                    <li className="text-base font-[Poppins] text-[#ffaf4d] font-medium tracking-1 mb-2"><a href="#">Shop</a></li>
+                    <li className="text-base font-[Poppins] text-[#ffaf4d] font-medium tracking-1 mb-2"><a href="#">Offers</a></li>
+                    <li className="text-base font-[Poppins] text-[#ffaf4d] font-medium tracking-1 mb-2"><a href="#">About</a></li>
                 </ul>
             </div>
             {/* Desktop Nav links */}
             <div className="desktop-nav hidden md:block order-2 flex justify-center items-center">
                 <ul className="desktop-nav-links flex justify-center items-center gap-x-20">
-                    <li className="text-lg font-medium text-black hover:text-yellow-500 transition-all duration-300 linear"><a href="#">Home</a></li>
-                    <li className="text-lg font-medium text-black hover:text-yellow-500 transition-all duration-300 linear"><a href="#">Shop</a></li>
-                    <li className="text-lg font-medium text-black hover:text-yellow-500 transition-all duration-300 linear"><a href="#">Offers</a></li>
-                    <li className="text-lg font-medium text-black hover:text-yellow-500 transition-all duration-300 linear"><a href="#">About</a></li>
+                    <li className="text-lg font-medium text-black hover:text-[#ffaf4d] transition-all duration-300 linear"><a href="#">Home</a></li>
+                    <li className="text-lg font-medium text-black hover:text-[#ffaf4d] transition-all duration-300 linear"><a href="#">Shop</a></li>
+                    <li className="text-lg font-medium text-black hover:text-[#ffaf4d] transition-all duration-300 linear"><a href="#">Offers</a></li>
+                    <li className="text-lg font-medium text-black hover:text-[#ffaf4d] transition-all duration-300 linear"><a href="#">About</a></li>
                 </ul>
             </div>
         </div>

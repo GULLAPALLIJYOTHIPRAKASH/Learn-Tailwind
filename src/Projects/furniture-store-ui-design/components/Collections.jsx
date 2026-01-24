@@ -11,7 +11,7 @@ function Collections(){
             <div className="collections-center max-w-[1550px] mx-auto px-[20px] py-16">
                 <div className="heading flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center mb-15">
                     <h1 className="text-black text-xl font-medium tracking-[2px] mb-5 font-[Poppins] md:mb-0">LOVE WHERE YOU LIVE</h1>
-                    <button className="bg-[#ffaf4d]  text-white py-2 px-5 font-[Poppins] rounded-[50px]">VIEW ALL COLLECTION</button>
+                    <button className="bg-[#ffaf4d]  text-white py-2 px-5 font-[Poppins] rounded-[50px] transition-all linear duration-300 cursor-pointer hover:opacity-70">VIEW ALL COLLECTION</button>
                 </div>
                 <section className="collections-section grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] items-center justify-center gap-5 ">
                     {/* Chair start */}

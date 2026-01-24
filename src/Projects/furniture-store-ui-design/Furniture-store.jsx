@@ -2,6 +2,7 @@ import { useState } from "react";
 import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Collections from "./components/Collections";
+import BedMaterial from "./components/BedMaterial";
 
 function Furniture_store(){
 
@@ -11,7 +12,8 @@ function Furniture_store(){
     <Navbar/>
     <Banner/>
     <Collections/>
-   
+    <BedMaterial/>
+    
 
     </>)
 

@@ -3,6 +3,8 @@ import Navbar from "./components/Navbar";
 import Banner from "./components/Banner";
 import Collections from "./components/Collections";
 import BedMaterial from "./components/BedMaterial";
+import New_Arrivals from "./components/New_Arrivals";
+
 
 function Furniture_store(){
 
@@ -13,6 +15,8 @@ function Furniture_store(){
     <Banner/>
     <Collections/>
     <BedMaterial/>
+    <New_Arrivals/>
+   
     
 
     </>)

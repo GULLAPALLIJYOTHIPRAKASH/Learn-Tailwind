@@ -30,7 +30,7 @@ function New_Arrivals(){
                         <div className="info mt-2 ">
                             <h3 className="  text-sm tracking-[2px] text-gray-600 font-medium">LIGHTING</h3>
                             <h1 className="  text-lg tracking-[2px] font-medium mt-1">AURA PENDENT LAMP</h1>
-                            <h4 className="text-sm font-normal mt-1">$30.00</h4>
+                            <h4 className="text-sm font-normal mt-1 text-[#a44837]">$30.00</h4>
                         </div>
                     </div>
                     {/* article end */}
@@ -46,7 +46,7 @@ function New_Arrivals(){
                         <div className="info mt-2 ">
                             <h3 className="  text-sm tracking-[2px] text-gray-600 font-medium">ACCESSORIES</h3>
                             <h1 className="  text-lg tracking-[2px] font-medium mt-1">FLOWER VASE DECORP</h1>
-                            <h4 className="text-sm font-normal mt-1">$20.00</h4>
+                            <h4 className="text-sm font-normal mt-1 text-[#a44837]">$20.00</h4>
                         </div>
                     </div>
                     {/* article end */}
@@ -63,7 +63,7 @@ function New_Arrivals(){
                         <div className="info mt-2 ">
                             <h3 className="  text-sm tracking-[2px] text-gray-600 font-medium">SEATING</h3>
                             <h1 className="  text-lg tracking-[2px] font-medium mt-1">MODERN CHAIR</h1>
-                            <h4 className="text-sm font-normal mt-1">$100.00</h4>
+                            <h4 className="text-sm font-normal mt-1 text-[#a44837]">$100.00</h4>
                         </div>
                     </div>
                     {/* article end */}
@@ -80,7 +80,7 @@ function New_Arrivals(){
                         <div className="info mt-2 ">
                             <h3 className="  text-sm tracking-[2px] text-gray-600 font-medium">SOFA</h3>
                             <h1 className="  text-lg tracking-[2px] font-medium mt-1">EMBARCE LOUNGE CHAIR</h1>
-                            <h4 className="text-sm font-normal mt-1">$200.00</h4>
+                            <h4 className="text-sm font-normal mt-1 text-[#a44837]">$200.00</h4>
                         </div>
                     </div>
                     {/* article end */}
@@ -98,12 +98,18 @@ function New_Arrivals(){
                         <div className="info mt-2 ">
                             <h3 className="  text-sm tracking-[2px] text-gray-600 font-medium">TABLE</h3>
                             <h1 className="  text-lg tracking-[2px] font-medium mt-1">SIDE TABLE</h1>
-                            <h4 className="text-sm font-normal mt-1">$300.00</h4>
+                            <h4 className="text-sm font-normal mt-1 text-[#a44837]">$300.00</h4>
                         </div>
                     </div>
                     {/* article end */}
     
                 </div>
+
+
+            <div className="text-center">
+             <button className="bg-[#ffaf4d] px-4 py-2 text-base  font-normal text-white rounded-3xl  mt-5 cursor-pointer transition-all duration-300 linear hover:opacity-80">VIEW ALL</button>
+
+            </div>
             </div>
         </div>
         {/* New Arrivals end */}

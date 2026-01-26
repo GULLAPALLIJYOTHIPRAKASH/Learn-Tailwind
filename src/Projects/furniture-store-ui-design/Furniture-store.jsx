@@ -4,6 +4,7 @@ import Banner from "./components/Banner";
 import Collections from "./components/Collections";
 import BedMaterial from "./components/BedMaterial";
 import New_Arrivals from "./components/New_Arrivals";
+import About_US from "./components/About_US";
 
 
 function Furniture_store(){
@@ -16,7 +17,8 @@ function Furniture_store(){
     <Collections/>
     <BedMaterial/>
     <New_Arrivals/>
-   
+    <About_US/>
+    
     
 
     </>)

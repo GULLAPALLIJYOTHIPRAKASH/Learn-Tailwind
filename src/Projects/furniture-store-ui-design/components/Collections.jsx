@@ -7,15 +7,15 @@ function Collections(){
     return(<>
     
       {/* collections start */}
-        <div className="collections-container">
-            <div className="collections-center max-w-[1550px] mx-auto px-[20px] py-16">
+        <div className="collections-container  py-16">
+            <div className="collections-center max-w-[1550px] mx-auto px-[20px] ">
                 <div className="heading flex flex-col justify-center items-center md:flex-row md:justify-between md:items-center mb-15">
                     <h1 className="text-black text-xl font-medium tracking-[2px] mb-5 font-[Poppins] md:mb-0">LOVE WHERE YOU LIVE</h1>
                     <button className="bg-[#ffaf4d]  text-white py-2 px-5 font-[Poppins] rounded-[50px] transition-all linear duration-300 cursor-pointer hover:opacity-70">VIEW ALL COLLECTION</button>
                 </div>
-                <section className="collections-section grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] items-center justify-center gap-5 ">
+                <section className="collections-section grid grid-cols-[repeat(auto-fill,minmax(350px,1fr))] items-center justify-center gap-5  mx-auto">
                     {/* Chair start */}
-                    <article className="single-collection group">
+                    <article className="single-collection  group">
                         <div className="img-container aspect-[3/4] overflow-hidden rounded-[10px] relative">
                             <img src={chair} alt="Wooden Chair" className="w-[100%] h-[100%] object-center object-cover overflow-hidden transition-all linear duration-400 group-hover:scale-[1.090]" />
                             <div className="info absolute w-[100%] h-[100%] inset-0 bg-black/20 p-6  flex justify-between  items-end" >

@@ -12,7 +12,7 @@ function Our_Story(){
                 <div className="heading ">
                     <h1 className=" text-white text-3xl font-medium mb-4 md:text-4xl">INNOVATIVE VISION  <br />
                     IN MODERN DESIGN</h1>
-                    <p className="text-white text-lg w-[450px] leading-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugit ipsum accusantium error voluptatem aspernatur nobis quam expedita laborum officia ullam delectus, iste reiciendis placeat inventore, consectetur minima! Quis, provident.</p>
+                    <p className="text-white text-lg md:w-[450px] leading-[20px]">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero fugit ipsum accusantium error voluptatem aspernatur nobis quam expedita laborum officia ullam delectus, iste reiciendis placeat inventore, consectetur minima! Quis, provident.</p>
                     <button className="bg-[#ffaf4d] py-2 px-4 text-white mt-4 rounded-full">READ OUR STORY</button>
                 </div>
             </div>

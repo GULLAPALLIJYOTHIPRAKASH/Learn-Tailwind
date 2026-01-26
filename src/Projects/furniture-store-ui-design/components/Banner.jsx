@@ -9,7 +9,7 @@ function Banner(){
                 <div className="heading mt-20">
                     <h1 className="font-[Jost] font-medium text-5xl  sm:ml-[20%] md:ml-[20%] tracking-1 sm:text-6xl md:text-7xl lg:text-8xl xl:text-9xl ">INOVA<span className="font-light">TION</span></h1>
                     <h3 className="font-[Jost] font-light text-2xl sm:ml-[20%]   md:ml-[20%] text-black mt-4 md:text-3xl">Design Your Space</h3>
-                    <button className="bg-[#ffaf4d] text-white text-sm py-2 px-5 rounded-full uppercase font-medium mt-4 ml-[70%] sm:ml-[55%] md:ml-[58%] lg:ml-[60%] xl:ml-[58%] cursor-pointer hover:opacity-80 ">Buy Now</button>
+                    <button className="bg-[#ffaf4d] text-white text-xs md:text-sm  py-2 px-5 rounded-full uppercase font-medium mt-4 ml-[70%] sm:ml-[55%] md:ml-[58%] lg:ml-[60%] xl:ml-[58%] cursor-pointer hover:opacity-80 ">Buy Now</button>
                 </div>
                 <div className="img-container md:w-1/2 overflow-hidden object-center object-cover mt-4   md:ml-[15%]">
                     <img src={sofa} alt="sofa Banner"  className="w-[100%] h-[100%] overflow-hidden object-center object-cover"/>

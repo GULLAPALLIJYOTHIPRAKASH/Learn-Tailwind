@@ -5,6 +5,7 @@ import Collections from "./components/Collections";
 import BedMaterial from "./components/BedMaterial";
 import New_Arrivals from "./components/New_Arrivals";
 import About_US from "./components/About_US";
+import Our_Story from "./components/Our_Story";
 
 
 function Furniture_store(){
@@ -18,6 +19,7 @@ function Furniture_store(){
     <BedMaterial/>
     <New_Arrivals/>
     <About_US/>
+    <Our_Story/>
     
     
 

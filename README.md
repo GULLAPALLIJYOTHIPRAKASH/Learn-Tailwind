@@ -48,6 +48,7 @@ The **src/** directory contains topic-wise folders, each with live examples and 
 | 🚀 Project-3 | Third project |
 | 🚀 UserCard| User Profile Card Design |
 | 🚀 Shop.inc| E-com Modern UI Design |
+| 🚀 Furnix.inc| FURNIX Modern UI Design |
 
 
 ---

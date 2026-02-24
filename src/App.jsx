@@ -12,6 +12,7 @@ import Aspect from "./Other/Aspect";
 import Position from "./Position/Position";
 import E_com from "./Projects/e-commerce-website-ui-design/E-com";
 import Furniture_store from "./Projects/furniture-store-ui-design/Furniture-store";
+import ProductInfo from "./Projects/ProductInfo_UIDesign/ProductInfo";
 import Project_one from "./Projects/Project-1/Project_one";
 import Project_two from "./Projects/Project-2/Project_two";
 import Project_three from "./Projects/Project-3/Project_three";
@@ -70,7 +71,9 @@ function App(){
 
   {/* <E_com/> */}
 
-  <Furniture_store/>
+  {/* <Furniture_store/> */}
+
+  <ProductInfo/>
 
   </>)
 }

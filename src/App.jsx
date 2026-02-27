@@ -10,6 +10,7 @@ import FlexBox from "./FlexBox/FlexBox";
 import Grid from "./Grid/Grid";
 import Aspect from "./Other/Aspect";
 import Position from "./Position/Position";
+import ArtGallery from "./Projects/ArtGallery-ui-design/ArtGallery";
 import E_com from "./Projects/e-commerce-website-ui-design/E-com";
 import Furniture_store from "./Projects/furniture-store-ui-design/Furniture-store";
 import ProductInfo from "./Projects/ProductInfo_UIDesign/ProductInfo";
@@ -73,7 +74,9 @@ function App(){
 
   {/* <Furniture_store/> */}
 
-  <ProductInfo/>
+  {/* <ProductInfo/> */}
+
+  <ArtGallery/>
 
   </>)
 }

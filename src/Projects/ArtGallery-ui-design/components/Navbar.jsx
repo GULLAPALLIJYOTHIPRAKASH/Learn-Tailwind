@@ -6,7 +6,7 @@ function Navbar(){
     const [show_sidebar , setshow_sidebar] = useState(false);
 
     return(<>
-    <nav className="navbar-container bg-[#FFF8F0]/80 sticky top-0 left-0  backdrop-blur-md">
+    <nav className="navbar-container bg-[#FFF8F0]/80 sticky top-0 left-0  backdrop-blur-md z-10">
         <div className="navbar-center  max-w-[1550px] mx-auto min-h-[70px] py-[20px] px-[20px] flex justify-between items-center">
             <div className="logo-section">
                 <h1 className="font-bold font-serif text-xl md:text-2xl">Arto<span className="text-[#FF6B6B]">Gallery</span></h1>

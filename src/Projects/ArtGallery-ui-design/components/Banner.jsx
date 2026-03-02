@@ -3,9 +3,9 @@ import banner_1 from "../assets/banner-1.jpg";
 function Banner(){
 
     return(<>
-    <div className="banner-container py-10 ">
-        <div className="banner-center max-w-[1550px]  mx-auto  px-[20px] lg:flex lg:justify-center lg:items-center space-x-10">
-            <div className="heading-section  lg:w-1/2 lg:flex lg:flex-col lg:justify-center">
+    <div className="banner-container pt-30  animate-attention">
+        <div className="banner-center max-w-[1550px]  mx-auto  px-[20px] lg:flex   space-x-10  ">
+            <div className="heading-section   lg:w-1/2 lg:flex lg:flex-col">
                 <h1 className="text-5xl/15 font-meduim font-serif mb-6"><b>Ignite Your</b> <br /> <b className="text-[#FF6B6B]">Artistic Soul</b></h1>
                 <p className="text-lg text-gray-700 mb-8 max-w-lg">Explore a curated selection of contemporary and classic artwork, connecting collectors and creators in an inspiring online space.</p>
                 <div className="btn-container">
@@ -30,7 +30,7 @@ function Banner(){
                     
                 </div>
             </div>
-            <div className="banner-section my-15 lg:my-15  relative lg:w-1/2">
+            <div className="banner-section my-15 lg:my-0  relative lg:w-1/2 z-6">
                 <div className="img-container w-[100%] h-[100%]   relative   rounded-3xl shadow-xl overflow transform-0 rotate-1 hover:rotate-0 transition-transform duration-500 ">
                     <img src={banner_1} alt="" className="w-[100%] h-[100%] object-center object-conver rounded-3xl" />
 
@@ -43,7 +43,7 @@ function Banner(){
                         <span className="text-sm font-bold ">Original Work</span>
                         <span className="text-sm text-[#1e1e2f]">Signed by Artist</span>
                     </div>
-                <div className="small-card flex flex-col bg-white rounded-lg  shadow-lg shadow-black/50 absolute -bottom-7 right-0 md:-right-2 lg:-right-7  py-3 px-3">
+                <div className="small-card flex flex-col bg-white rounded-lg  shadow-lg shadow-black/50 absolute -bottom-7 right-0 md:-right-2 lg:-right-3  py-3 px-3">
                         <span className="text-sm font-bold ">Limited Editions</span>
                         <span className="text-sm text-[#1e1e2f]">Only 50 Prints</span>
                     </div>
